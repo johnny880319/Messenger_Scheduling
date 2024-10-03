@@ -1,14 +1,15 @@
 from datetime import datetime
 
+# status
+cookie_status = "dump" # "dump", "load"
+
 # url
-fb_login_url = "https://www.facebook.com/"
-friend_url = "https://www.facebook.com/messages/t/26250955891156272"
+fb_normal_url = "https://www.facebook.com/"
+google_url = "https://www.google.com.tw/"
+friend_url = "https://www.facebook.com/messages/t/friend_id"
 target_url = ""
 
-# E-mail and passward for facebook
-my_email = "MyEmail@gmail.com"
-my_password = "my_password"
-
 # Others
-send_time = datetime(2024, 10, 3, 3, 00)  # 年 月 日 時 分
-message = "這是一條自動傳送的訊息"
+send_time = datetime(2024, 11, 11, 11, 11, 11)  # 年 月 日 時 分 秒
+message = "測試訊息"
+cookie_path = "storage/facebook_cookies.pkl"
